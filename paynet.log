@@ -1,0 +1,26 @@
+2023-02-07 12:05:09 - Starting AppPaymeSavingAccountApplication using Java 17.0.6 on DESKTOP-BUU6O54 with PID 3808 (D:\startups\app-payme-saving-account\target\classes started by Pro in D:\startups\app-payme-saving-account)
+2023-02-07 12:05:09 - The following profiles are active: dev
+2023-02-07 12:05:09 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-07 12:05:09 - Finished Spring Data repository scanning in 33 ms. Found 4 JPA repository interfaces.
+2023-02-07 12:05:09 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@14982a82' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-07 12:05:09 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-07 12:05:10 - Tomcat initialized with port(s): 88 (http)
+2023-02-07 12:05:10 - Starting service [Tomcat]
+2023-02-07 12:05:10 - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-02-07 12:05:10 - Initializing Spring embedded WebApplicationContext
+2023-02-07 12:05:10 - Root WebApplicationContext: initialization completed in 698 ms
+2023-02-07 12:05:10 - HikariPool-1 - Starting...
+2023-02-07 12:05:10 - HikariPool-1 - Start completed.
+2023-02-07 12:05:10 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-07 12:05:11 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-07 12:05:11 - 
+
+Using generated security password: 6b1e9abe-3467-4d6b-b493-7558717e90d8
+
+2023-02-07 12:05:11 - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f81507a, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c5044fa, org.springframework.security.web.header.HeaderWriterFilter@7a92827f, org.springframework.web.filter.CorsFilter@7d7c05fa, org.springframework.security.web.authentication.logout.LogoutFilter@575e862c, ai.ecma.apppaymesavingaccount.config.JwtAuthenticationFilter@48a663e9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b386a17, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@42028589, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7dbbf730, org.springframework.security.web.session.SessionManagementFilter@7c2e88b9, org.springframework.security.web.access.ExceptionTranslationFilter@23aaa756, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@575fe6da]
+2023-02-07 12:05:11 - Tomcat started on port(s): 88 (http) with context path ''
+2023-02-07 12:05:11 - Started AppPaymeSavingAccountApplication in 2.341 seconds (JVM running for 3.614)
+2023-02-07 14:23:23 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h35m41s152ms7µs400ns).
+2023-02-07 14:25:01 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-07 14:25:01 - HikariPool-1 - Shutdown initiated...
+2023-02-07 14:25:01 - HikariPool-1 - Shutdown completed.
